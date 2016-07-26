@@ -7,3 +7,46 @@
 //
 
 #include "Sandwich.h"
+
+
+//Constructor
+
+Sandwich :: Sandwich()
+{
+    this->breadCount = 3;
+    this->filling = "Egg Salad and Chopped Ham";
+    this->name = "Ribbon";
+}
+
+//end Constructors
+
+int Sandwich :: getBreadCount()
+{
+    return breadCount;
+}
+
+void Sandwich :: setBreadCount(int breadCount)
+{
+    this->breadCount = breadCount;
+
+}
+string Sandwich :: getFilling()
+{
+    return filling;
+}
+
+void Sandwich :: setFilling(string filling)
+{
+    this->filling = filling;
+    
+}
+string Sandwich :: getName()
+{
+    return name;
+}
+
+void Sandwich :: setName(string name)
+{
+    this->name = name;
+    
+}
