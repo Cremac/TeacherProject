@@ -20,6 +20,11 @@ Sandwich :: Sandwich()
 
 //end Constructors
 
+Sandwich :: ~Sandwich()
+{
+    //Delete all instances of new memory.
+}
+
 int Sandwich :: getBreadCount()
 {
     return breadCount;
